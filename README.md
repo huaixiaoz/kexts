@@ -21,8 +21,8 @@ the `system kext cache`.
 
 ###Pic for Kext\ Wizard###
 
-
-
+![install](https://github.com/huaixiaoz/kexts/blob/master/pic/install.png)
+![rebuild](https://github.com/huaixiaoz/kexts/blob/master/pic/rebuild.png)
 
 ###Something Else###
 
