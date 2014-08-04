@@ -1,0 +1,700 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 TrebuchetMS;\f2\fswiss\fcharset0 Helvetica;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red11\green84\blue1;\red26\green26\blue26;\red160\green17\blue26;
+\red30\green30\blue30;\red147\green147\blue147;\red0\green0\blue194;\red251\green0\blue7;\red119\green52\blue16;
+\red146\green26\blue32;\red15\green116\blue1;\red0\green0\blue255;\red28\green2\blue207;\red107\green0\blue109;
+\red15\green112\blue1;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid102\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid402\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid502\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid8}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}}
+\margl1440\margr1440\vieww22220\viewh9620\viewkind0
+\deftab720
+\pard\pardeftab720\li56\ri776\sa56
+
+\f0\b\fs28 \cf2 Following are the fixes and features added to the keyboard by Elan touchpad driver:
+\b0 \cf3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\f1 \cf4 {\listtext	\'95	}Integrated deeply with Elan touchpad driver in order to get the some of the \'e9lan features to work.\cf5 \
+\ls1\ilvl0\cf4 {\listtext	\'95	}Rewritten the process of keyboard keys dispatch from the scratch.\cf5 \
+\ls1\ilvl0\cf4 {\listtext	\'95	}Have many optimizations in the code\cf5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Mapped Fn key scan codes from Acer, Asus, Dell, MSI and Samsung to ADB codes for simulating some of their\'a0functions
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added support for\'a0extended\'a0function keys F13-F24 simulation (Shift + F1 - 12 ) along with the\'a0option to assign custom OSX shortcuts to them using three key combinations.
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added ISO layout option which\'a0can be enabled/disabled by editing the plist entry "Use ISO Layout" to Yes/No (or) true/false.
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added option to detect keyboard with Apple Keyboard layouts (Check the Keyboard layout post below).
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added new Fn key mode feature (check the second post for details)
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added keyboard shortcuts for enabling/disabling the touchpad features
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added support for Asus keyboard backlight
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added option to map Delete to Command + backspace shortcut
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added\'a0option to assign right Context\'a0menu and Control keys with\'a0different modifier values
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added custom German keyboard layout to fix the keys which are not mapped properly
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added option to make Shift + Caps lock combination to act as Fn key
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Added option to choose finer brightness and volume controls
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Assigned 
+\b Print Screen
+\b0  key to the 
+\b OSX Screen capture
+\b0 \'a0shortcut
+\i0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Assigned\'a0
+\b Control + Pause/Break
+\b0  key to 
+\b eject Optical drive
+\i0\b0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Assigned 
+\b Scroll Lock
+\b0  key for 
+\b enabling/disabling Inertial and\'a0Continuous(hold ALT key)\'a0\'a0scroll
+\i0\b0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Assigned\'a0
+\b Context menu
+\b0  key to show 
+\b Contextual menu/right click
+\i0\b0 \cf5 \
+\ls1\ilvl0
+\i \cf4 {\listtext	\'95	}Changed NumLock and its LED status to soft control as it was not working in some notebooks (
+\i0 was not working in my Asus)\cf5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0\cf4 {\listtext	\'95	}and many others small improvements.\cf5 \
+\pard\pardeftab720
+\cf5 \
+\pard\pardeftab720\li48\ri768\sa48
+
+\fs24 \cf6 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\b\fs36 \cf7 Fn Keys Mode:
+\b0\fs28 \cf5 \uc0\u8232 I've implemented this feature in order to simulate the Fn key functions of Apple for the notebooks which has real Fn keys not working and also to provide/improve the keyboard experience close to Apple keyboard. There are three modes in this feature. \'a0\
+They are:\
+\'a0\
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf8 Note: In version 3.0.2 (or) lesser, ApplePS2Keyboard kext is found inside the ApplePS2Controller kext. From v3.3, ApplePS2Keyboard is located inside ApplePS2ElanTouchpad kext.
+\b0 \cf5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0
+\b \cf9 {\listtext	1.	}Mode 1
+\b0 \cf5 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls2\ilvl1\cf5 {\listtext	\'95	}works without any Fn key and has Apple keyboard Fn key Mappings by default\
+{\listtext	\'95	}It overrides the regular function keys(F1 - F12) with fn keys, so to access those regular function keys you need to Hold 
+\i\b "Shift + Caps"
+\i0\b0  and press the respective Function key to access.\
+{\listtext	\'95	}uses the Fn key mapping values from the plist entry "Fn Keys Mode 1"\
+{\listtext	\'95	}you can change these mappings as you like by using the allowed keys\'a0
+\i and editing the plist file\'a0\cf7 "ApplePS2ElanTouchpad.kext/Contents/Plugins/ApplePS2Keyboard.kext/Contents/Info.plist"\'a0\cf5 at the section\'a0\cf7 "IOKitPersonalities->ApplePS2Keyboard->Fn keys Mode 1"
+\i0 \cf5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0
+\b \cf10 {\listtext	2.	}Mode 2
+\b0 \cf5 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls2\ilvl1\cf5 {\listtext	\'95	}works using the Context menu key (or\'a0Hold\'a0
+\i\b "Shift + Caps")
+\i0\b0 \'a0as Fn key and has my custom Fn key mappings\
+{\listtext	\'95	}uses the Fn key mapping values from the plist entry "Fn Keys Mode 2"\
+{\listtext	\'95	}you can also change these mappings as you like by using the allowed keys\'a0
+\i and editing the plist file\'a0\cf7 "ApplePS2ElanTouchpad.kext/Contents/Plugins/ApplePS2Keyboard.kext/Contents/Info.plist"\'a0\cf5 at the section\'a0\cf7 "IOKitPersonalities->ApplePS2Keyboard->Fn keys Mode 2"\cf5 .
+\i0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0
+\b \cf10 {\listtext	3.	}Mode 3
+\b0 \cf5 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls2\ilvl1\cf5 {\listtext	\'95	}works using the Context menu key (or\'a0Hold\'a0
+\i\b "Shift + Caps")
+\i0\b0 \'a0as Fn key but has Fn key mapping of the Notebook vendor\
+{\listtext	\'95	}uses the Fn key mapping used by the notebook vendor like Dell, Samsung, Acer and Asus.\
+{\listtext	\'95	}for vendor mapping you need to edit the plist entry 
+\i \cf7 "Fn keys Layout"
+\i0 \cf5  to the vendor values explained below.\
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf8 \
+Allowed vendor values for the Fn keys Layout:
+\b0 \cf5 \
+'NONE' clears the mapping and makes the mode like disabled. I meant this value to provide vendor mapping of the Fn keys positions for the Fn key mode 3 and fix some of the real fn keys minor issues in my driver for few notebooks(barely noticeable), because there are some scan codes of Fn keys which \'a0are getting conflicts in my ADB-scan code mapping due to each vendor doing different\'a0functions for the same scan code.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0\cf5 {\listtext	1.	}ASUS\
+{\listtext	2.	}ACER\
+{\listtext	3.	}DELL\
+{\listtext	4.	}SAMSUNG\
+{\listtext	5.	}MSI\
+{\listtext	6.	}NONE\
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf8 \
+Allowed key values for mapping the Fn key functions are:
+\b0 \cf5 \uc0\u8232 
+\i \cf5 \'a0F1 - F12, Pause,\'a0
+\i0 \cf5 Arrow
+\i \cf5 Down,\'a0
+\i0 \cf5 Arrow
+\i \cf5 Up,\'a0
+\i0 \cf5 ArrowLeft
+\i \cf5 \'a0and\'a0
+\i0 \cf5 Arrow
+\i \cf5 Right.
+\i0 \cf5 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\i \cf5 Enter the value\'a0\cf7 "disable"\cf5 \'a0in plist for disabling the Fn key mapping you don't want.
+\i0 \cf5 \
+\'a0\
+
+\i \cf5 Also you can enable/disable this feature by editing the plist entry "
+\i0 \cf5 Fn keys Mode
+\i \cf5 " to the below values:
+\i0 \cf5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls4\ilvl0
+\i \cf5 {\listtext	\'95	}0 - to disable Fn keys mode
+\i0 \
+\ls4\ilvl0
+\i {\listtext	\'95	}1 - 3 - each mode works like i've explained above
+\i0 \
+\pard\pardeftab720\li56\ri776\sa56
+\cf5 \'a0\
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf2 Right context menu key 
+\f2\b0\fs24 \cf0 {{\NeXTGraphic 8744268475_5acdd76d04_o.png \width705 \height696
+}¬}
+\f1\fs28 \cf5 \'a0 (or)\'a0Hold\'a0
+\i\b "Shift + Caps"
+\i0\b0 \uc0\u8232 \'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls5\ilvl0
+\b \cf4 {\listtext	\'95	}Fn Key Mode 2
+\b0 \cf5 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls5\ilvl1
+\i \cf5 {\listtext	\uc0\u9702 	}F1 - Sleep
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F3 - Misson control\'a0
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F3 -\'a0KBBacklightDown(Asus keyboard backlight)
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F4 - Launchpad\'a0
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F4 -\'a0KBBacklightUp\'a0(Asus keyboard backlight)
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F5 - Brightness decrease
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F6 - Brightness increase
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F7 - Display sleep
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F8 - Video Mirror
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F9 - Disable/Enable Touchpad
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F10 - Volume Mute
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F11 - Volume decrease
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}F12 - Volume increase
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}Left Arrow - Media Previous\'a0(Media Rewind on key Hold)
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}Down Arrow - Play/Pause
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}Right Arrow - Media Next (Media Fast on key Hold)
+\i0 \
+\ls5\ilvl1
+\i {\listtext	\uc0\u9702 	}Pause/Break key - Context menu
+\i0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls6\ilvl0
+\b \cf4 {\listtext	\'95	}Fn Key Mode 1
+\b0 \cf5 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440
+\ls6\ilvl1
+\i \cf5 {\listtext	\uc0\u9702 	}F1 - Brightness decrease
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F2 - Brightness Increase
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F3 - Mission control
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F3 -\'a0KBBacklightDown(Asus keyboard backlight)
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F4 - Launchpad
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F4 - KBBacklightUp\'a0(Asus keyboard backlight)
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F5 - Display Sleep
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F6 - Video Mirror
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F7 - Media Previous\'a0(Media Rewind on key Hold)
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F8 - Media Play/Pause
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F9 - Media Next\'a0(Media Fast on key Hold)
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F10 - Volume Mute
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F11 - Volume decrease
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}F12 - Volume increase
+\i0 \
+\ls6\ilvl1
+\i {\listtext	\uc0\u9702 	}Pause/Break Key - Enable/Disable touchpad
+\i0 \
+\pard\pardeftab720\li56\ri776\sa56
+\cf5 \'a0\
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf8 NOTE:
+\i\b0  Display sleep disables both keyboard and Touchpad, so if you wake the screen other than Fn + Fx combination then both keyboard and touchpad are not enabled back. You need to press "ESC" key to enable them back.
+\i0 \cf5 \
+\pard\pardeftab720
+\cf5 \
+\pard\pardeftab720\li48\ri768\sa48
+
+\fs24 \cf6 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\f0\b\fs36 \cf7 Keyboard layout ID:
+\b0\fs28 \cf3 \uc0\u8232 This is only meant for ISO keyboard which needs to be detected using an ISO keyboard layout for the extra key in that to work. So, this is optional and isn't needed for ANSI/Japanese keyboards but you can use if you want the keyboard to be detected with an Apple keyboard layout. Keyboard type is set to Cosmo layout for ISO, PS2 layout Type for ANSI by default.\u8232 \'a0\
+Enter the keyboard id decimal value at the plist entry \cf7 "IOKitPersonalities->ApplePS2Keyboard->Keyboard type(ID)"\cf3  in the plist file \cf7 "info.plist"\cf3  inside the AppplePS2Keyboard kext.
+\f3\fs22 \cf0 \'a0 \'a0 \'a0
+\f0\fs28 \cf3 \
+\pard\pardeftab720\li44\ri764\sa44
+
+\f3\fs22 \cf11 \'a0\
+\pard\pardeftab720\li44\ri764\sa44
+
+\f4\b\fs28 \cf12 Keyboard ID(0xXX)
+\f3\b0 \cf11 \'a0 /*\'a0
+\f4\b Comments */
+\f3\b0\fs22 \
+\pard\pardeftab720\li44\ri764\sa44
+\cf5 \'a0\
+\pard\pardeftab720\li44\ri764\sa44
+\cf13 0x03\cf0 \'a0 \cf11 /* Unknown ANSI keyboard */\
+\cf13 0x1B\cf0 \'a0\'a0\cf11 /* Default Apple PS2 Controller ANSI keyboard */\
+\cf13 0x2F \'a0\cf11 /* Apple M89 Wired (ISO) Keyboard */\
+\cf13 0x2C \'a0\cf11 /* Apple M90 Wireless (ISO) Keyboard */\
+\cf13 0xC6\cf0 \'a0\'a0\cf11 /* Gestalt Cosmo USB Domestic (ANSI) Keyboard */\
+\cf13 0xC7\cf0 \'a0\'a0\cf11 /* Cosmo USB International (ISO) Keyboard */\
+\cf13 0xC8\'a0\'a0\cf11 /* Cosmo USB Japanese (JIS) Keyboard */\
+\cf13 0xCC\'a0\'a0\cf11 /* Andy USB Keyboard Domestic (ANSI) Keyboard */\
+\cf13 0xCD\'a0\'a0\cf11 /* Andy USB Keyboard International (ISO) Keyboard */\
+\cf13 0xCE\'a0\'a0\cf11 /* Andy USB Keyboard Japanese (JIS) Keyboard */\
+\cf13 0x1F\'a0\'a0\cf11 /* Apple Q6 Keyboard Domestic (ANSI) Keyboard */\
+\cf13 0x20\'a0\'a0\cf11 /* Apple Q6 Keyboard International (ISO) Keyboard */\
+\cf13 0x21\'a0\'a0\cf11 /* Apple Q6 Keyboard Japanese (JIS) Keyboard */\
+\cf13 0x22\'a0\'a0\cf11 /* Apple Q30 Keyboard Domestic (ANSI) Keyboard (or) USB Pro Keyboard w/ F16 key Domestic (ANSI) Keyboard */\
+\cf13 0x23\'a0\'a0\cf11 /* Apple Q30 Keyboard International (ISO) Keyboard (or) USB Pro Keyboard w/ F16 key International (ISO) Keyboard */\
+\cf13 0x24\'a0\'a0\cf11 /* Apple Q30 Keyboard Japanese (JIS) Keyboard (or) USB Pro Keyboard w/ F16 key Japanese (JIS) Keyboard */\
+\cf13 0x25\'a0\'a0\cf11 /* Apple Santa/Fountain Keyboard Domestic (ANSI) Keyboard */\
+\cf13 0x26\'a0\'a0\cf11 /* Apple Santa/Fountain Keyboard International (ISO) Keyboard */\
+\cf13 0x27\'a0\'a0\cf11 /* Apple Santa/Fountain Keyboard Japanese (JIS) Keyboard */\
+\cf13 0x30 \'a0\cf11 /*\'a0German and Turkish ISO Keyboard\'a0*/\
+\cf13 0x31 \'a0\cf11 /*\'a0Spanish and Italian ISO Keyboard\'a0*/\
+\cf13 0x32 \'a0\cf11 /*\'a0French ISO Keyboard\'a0*/\
+\cf13 0x33 \'a0\cf11 /*\'a0Brazilian ABNT2 Keyboard*/\
+\pard\pardeftab720
+
+\f1\fs28 \cf5 \
+\pard\pardeftab720\li48\ri768\sa48
+
+\fs24 \cf6 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\b\fs36 \cf14 Keyboard Configuration in plist:
+\b0\fs28 \cf5 \
+\'a0\
+The following are the things that can be configured in the plist for the keyboard. You can find these at the section 
+\i \cf7 "IOKitPersonalities->ApplePS2Keyboard"
+\i0 \cf5  from the file "info.plist" located inside the kext\'a0
+\i \cf7 "ApplePS2ElanTouchpad.kext/Contents/Plugins/ApplePS2Keyboard.kext/Contents/"\'a0.
+\i0 \cf5 \
+\'a0\
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf8 Note: In version 3.0.2 (or) lesser, ApplePS2Keyboard kext is found inside the ApplePS2Controller kext. From v3.3, ApplePS2Keyboard is located inside ApplePS2ElanTouchpad kext.
+\b0 \cf5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls7\ilvl0
+\b \cf4 {\listtext	\'95	}Use ISO Layout
+\b0 \'a0: 
+\i Yes/No (or) true/false
+\i0  - Enables/disables the ISO layout\'a0\cf5 \
+\ls7\ilvl0
+\b \cf4 {\listtext	\'95	}Keyboard type (ID)
+\b0 \'a0: 
+\i decimal value
+\i0  - Enables the keyboard to be detected with the Apple layout value we provide.\cf5 \
+\ls7\ilvl0
+\b \cf4 {\listtext	\'95	}Fn keys Mode
+\b0 \'a0: 
+\i 0-3
+\i0  - Sets the Fn keys mode\'a0(Read second post for details)\cf5 \
+\ls7\ilvl0
+\b \cf4 {\listtext	\'95	}Fn keys Layout
+\b0 \'a0: 
+\i Vendor string
+\i0  - Enables the Fn key mode 3 to have vendor layout(for Fn key positions) and fixes real Fn keys of some notebooks \'a0by avoiding conflicts in the scan codes-ADB mapping. (Read second post for details)\cf5 \
+\ls7\ilvl0
+\b \cf4 {\listtext	\'95	}Debug
+\b0 \'a0: 
+\i Yes/No (or) true/false
+\i0  :- Enables debug logs for keyboard.\cf5 \
+\pard\pardeftab720\li56\ri776\sa56\qc
+\cf5 \
+You can find the below options at the section\'a0
+\i \cf7 "IOKitPersonalities->ApplePS2Keyboard->Preferences"
+\i0 \cf5 \'a0from the file "info.plist" located inside the kext\'a0
+\i \cf7 "ApplePS2ElanTouchpad.kext/Contents/Plugins/ApplePS2Keyboard.kext/Contents/"\'a0.
+\i0 \cf5 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Swap alt and windows key :
+\b0 \'a0 
+\i Yes/No (or) true/false
+\i0  - Swap ALT and Windows keys positions to match Command key position of Apple keyboard?\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Using AsusBacklight
+\b0 \'a0: 
+\i Yes/No (or) true/false
+\i0  - Enables the support for Asus brightness levels to match with Apple bezel animation. (Use this only if you are using my AsusACPIBacklightPanel driver and working).\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Make context Menu key into key
+\b0 \'a0- 
+\i decimal value
+\i0  : Enables the context menu key to act like the value we provide.\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Make right control into key
+\b0 \'a0- 
+\i decimal value
+\i0  : Enables the right control key to act like the value we provide.\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Make shift + caps into Fn key
+\b0 \'a0-\'a0
+\i Yes/No (or) true/false
+\i0 \'a0: enable shift + caps key combination to act as Fn key?\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Make del into cmd + backspace
+\b0 \'a0-\'a0
+\i Yes/No (or) true/false
+\i0 \'a0: Enable delete key to act as command + backspace\'a0shortcut which can delete files?\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Enable Extended Functions
+\b0 \'a0-\'a0
+\i Yes/No (or) true/false
+\i0 \'a0: Enable extended\'a0function keys with Shift + F1-F12?\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Enable Asus KBacklight
+\b0 \'a0-\'a0
+\i Yes/No (or) true/false
+\i0 \'a0: Enable Asus\'a0keyboard backlight support in Fn keys mode? F3 and F4 acts as keyboard backlight controls default.\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Num Lock On
+\b0  - Yes/No (or) true/false : Enable num lock at boot?\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}Disable NumLock LED 
+\b0 -\'a0Yes/No (or) true/false : Disable num lock LED status on toggle?\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}FinerFnBrightnessControl
+\b0  -\'a0Yes/No (or) true/false : Enable finer control for smaller brightness levels in fn keys mode?\cf5 \
+\ls8\ilvl0
+\b \cf4 {\listtext	\'95	}FinerFnVolumeControl
+\b0  -\'a0Yes/No (or) true/false :\'a0Enable finer control for smaller volume levels in fn keys mode?\cf5 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf8 \
+Allowed values for the Context menu and right control:
+\b0 \cf5 \
+\pard\pardeftab720\li56\ri776\sa56
+\cf15 Left command \'a0 - 0x5B , Decimal - 91\cf5 \
+\cf15 Right command - 0x5C , Decimal - 92\cf5 \
+\cf15 Right control \'a0 \'a0 \'a0- 0x1D , Decimal - 29\cf5 \
+\cf15 Right option \'a0 \'a0 \'a0 - 0x38 , Decimal - 56\cf5 \
+\cf15 Context Menu \'a0 \'a0- 0x5D, Decimal - 93\cf5 \
+\pard\pardeftab720
+\cf5 \
+\pard\pardeftab720\li48\ri768\sa48
+
+\fs24 \cf6 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\fs36 \cf12 Touchpad and keyboard Features Toggle shortcuts:
+\fs28 \cf5 \
+\'a0\
+I've added few keyboard shortcuts shortcuts for enabling/disabling some of the touchpad features. This is can be triggered using Left Shift, Caps Lock and a character key which represents the feature.\
+\'a0\
+Its done like this: 
+\i\b \cf12 Hold Left Shift + Caps Lock and press "Feature Character"
+\i0\b0 \cf5 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf5 NOTE:
+\b0  You need to \cf5 \ul \ulc5 Hold Left shift first\cf5 \ulnone  then \cf5 \ul \ulc5 Hold Caps Lock next\cf5 \ulnone  and \cf5 \ul \ulc5 finally press the charecter.\cf5 \ulnone \
+\pard\pardeftab720
+\cf5 \'a0\
+\pard\pardeftab720\li56\ri776\sa56
+
+\i\b \cf8 This will make caps\'a0lock LED to blink (or) pointer moving a bit up/down for touchpad features\'a0to indicate its been triggered.
+\i0\b0 \cf5 \
+\'a0\
+\pard\pardeftab720\li56\ri776\sa56
+\cf4 For Auto scroll - 'A'\cf5 \
+\cf4 For Inertial scroll - 'I'\cf5 \
+\cf4 For Continuous scroll - 'C'\cf5 \
+\cf4 For Edge scroll - 'S'\cf5 \
+\cf4 For Zoom - 'Z'\cf5 \
+\cf4 For Rotate - 'R'\cf5 \
+\cf4 For Edge swipe - 'E'\cf5 \
+\cf4 For Three finger swipes - 'T'\cf5 \
+\cf4 For Four finger swipes - 'M'\cf5 \
+\cf4 For Fn keys mode - 'F'\cf5 \
+\cf4 For ALT and Windows keys swap - 'K'\cf5 \
+\cf4 For Extended\'a0functions - 'X'\cf5 \
+\cf4 For finer brightness control toggle - 'B'\cf5 \
+\cf4 For finger volume control toggle - 'V'\cf5 \
+\pard\pardeftab720\li48\ri768\sa48
+
+\fs24 \cf6 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\fs36 \cf12 Extended function keys Customization:
+\fs28 \cf5 \
+You can customize the extended function keys F13-24 using three key combination shortcuts. All the Alphabets, special characters, numbers and Modifiers are supported for making the key combination.\
+\'a0\
+Extended functions can be configured by editing the plist entry 
+\i \cf7 "IOKitPersonalities->ApplePS2Keyboard->Extended Functions"
+\i0 \cf5 \'a0from keyboard plist.\
+\'a0\
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf2 Its syntax:
+\b0 \cf5  
+\i \cf7 KEY1 KEY2 KEY3
+\i0 \cf5 \
+Each key is separated by a space and you should use the values i've provided below for the key.\
+\'a0\
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf8 \ul \ulc8 Default key combinations assigned to the extended function keys are:
+\b0 \cf5 \ulnone \
+\pard\pardeftab720\li56\ri776\sa56
+
+\b \cf4 F13 -
+\b0 \cf5  
+\i ALT CMD ESC
+\i0 \
+
+\b \cf4 F14 -
+\b0 \cf5 \'a0
+\i None (Works as OSX F14 for brightness)
+\i0 \
+
+\b \cf4 F15 -
+\b0 \cf5 \'a0
+\i None (Works as OSX F15 for brightness)
+\i0 \
+
+\b \cf4 F16 -
+\b0 \cf5 \'a0
+\i ALT CMD D
+\i0 \
+
+\b \cf4 F17 -
+\b0 \cf5 \'a0
+\i CTRL DAW
+\i0 \
+
+\b \cf4 F18 -
+\b0 \cf5 \'a0
+\i CTRL UAW
+\i0 \
+
+\b \cf4 F19 -
+\b0 \cf5 \'a0
+\i CTRL LAW
+\i0 \
+
+\b \cf4 F20 -
+\b0 \cf5 \'a0
+\i CTRL RAW
+\i0 \
+
+\b \cf4 F21 -
+\b0 \cf5 \'a0
+\i None
+\i0 \
+
+\b \cf4 F22 -
+\b0 \cf5 \'a0
+\i None
+\i0 \
+
+\b \cf4 F23 -
+\b0 \cf5 \'a0
+\i CMD Q
+\i0 \
+
+\b \cf4 F24 -
+\i\b0 \cf5 \'a0CMD H
+\i0 \
+\'a0\
+\pard\pardeftab720\li56\ri776\sa56
+
+\i\b \cf8 ALPHABETS, SPECIAL\'a0CHARACTERS\'a0And NUMBERS:
+\i0\b0 \cf5 \
+\pard\pardeftab720\li56\ri776\sa56
+
+\f3 \cf13 'A'\cf5 \'a0-\'a0\cf13 'Z'
+\f1 \cf5 \
+\pard\pardeftab720\li44\ri764\sa44
+
+\f3 \cf13 '0' -\'a0'9'
+\fs22 \cf5 \
+
+\fs28 \cf13 '`'
+\fs22 \cf5 \
+
+\fs28 \cf13 '-'
+\fs22 \cf5 \
+
+\fs28 \cf13 '+'\cf5 \'a0
+\fs22 \
+
+\fs28 \cf13 '['
+\fs22 \cf5 \
+
+\fs28 \cf13 ']'
+\fs22 \cf5 \
+
+\fs28 \cf13 '\\'
+\fs22 \cf5 \
+
+\fs28 \cf13 '/'
+\fs22 \cf5 \
+
+\fs28 \cf13 '.'
+\fs22 \cf5 \
+
+\fs28 \cf13 ','\cf5 :
+\fs22 \
+
+\fs28 \cf13 '''
+\fs22 \cf5 \
+
+\fs28 \cf13 ';'
+\fs22 \cf5 \
+\'a0\
+\pard\pardeftab720\li44\ri764\sa44
+
+\f4\b\fs28 \cf8 MODIFIERS:
+\f3\b0\fs22 \cf5 \
+\pard\pardeftab720\li44\ri764\sa44
+
+\f4\b\fs28 \cf4 Command
+\f3\b0 \cf5  - \cf7 'CMD'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Control
+\f3\b0 \cf13 \'a0- 'CTRL'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Shift \'a0
+\f3\b0 \cf13 \'a0- 'SHFT'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Escape\'a0
+\f3\b0 \cf13 \'a0- 'ESC'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Enter \'a0
+\f3\b0 \cf13 \'a0- 'ENTR'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Space \'a0
+\f3\b0 \cf13 \'a0- 'SPCE'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Tab \'a0 \'a0\'a0
+\f3\b0 \cf13 - 'TAB'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Down Arrow
+\f3\b0 \cf13 \'a0 - 'DAW'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Up Arrow \'a0\'a0
+\f3\b0 \cf13 \'a0- 'UAW'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Left Arrow
+\f3\b0 \cf13 \'a0 - 'LAW'
+\fs22 \cf5 \
+
+\f4\b\fs28 \cf4 Right Arrow
+\f3\b0 \cf13 \'a0- 'RAW'}
